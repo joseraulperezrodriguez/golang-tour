@@ -1,21 +1,21 @@
 package main
 
 import (
-	"tour/src/arrays"
-	"tour/src/errors"
-	"tour/src/flowcontrol"
-	"tour/src/functional"
-	"tour/src/functions"
-	"tour/src/goroutines"
-	"tour/src/interfaces"
-	"tour/src/io"
-	"tour/src/maps"
-	"tour/src/methods"
-	"tour/src/pointers"
-	"tour/src/ranges"
-	"tour/src/structs"
-	"tour/src/types"
-	"tour/src/variables"
+	"golang-tour/src/arrays"
+	"golang-tour/src/errors"
+	"golang-tour/src/flowcontrol"
+	"golang-tour/src/functional"
+	"golang-tour/src/functions"
+	"golang-tour/src/goroutines"
+	"golang-tour/src/interfaces"
+	"golang-tour/src/io"
+	"golang-tour/src/maps"
+	"golang-tour/src/methods"
+	"golang-tour/src/pointers"
+	"golang-tour/src/ranges"
+	"golang-tour/src/structs"
+	"golang-tour/src/types"
+	"golang-tour/src/variables"
 )
 
 func main() {
