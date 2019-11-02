@@ -47,5 +47,5 @@ func needFloat(x float64) float64 {
 
 //AdjustConstant test
 func AdjustConstant() {
-	needFloat(Big)
+	fmt.Println(needFloat(Big))
 }

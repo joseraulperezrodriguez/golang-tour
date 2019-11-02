@@ -32,7 +32,7 @@ func Channel1() {
 	s := []int{7, 2, 8, -9, 4, 0}
 	fmt.Printf("%T\n", s)
 	c := make(chan int)
-	go sum(s[:len(s)/2], c)
+	go sum(s[:(len(s)/2)-1], c)
 	go sum(s[len(s)/2:], c)
 
 	fmt.Println(len(c))
@@ -81,19 +81,9 @@ func Channel3() {
 	c := make(chan int, 10)
 	go fibonacci1(cap(c), c)
 
-	/*for i := range c {
-		fmt.Println(i)
-	}*/
-
 	for i := 0; i < 10; i++ {
 		i, closed := <-c
 		fmt.Println("R ->", len(c), i, closed)
-		/*if !closed {
-			fmt.Println(i)
-		} else {
-			fmt.Println("Closed")
-			break
-		}*/
 	}
 
 }

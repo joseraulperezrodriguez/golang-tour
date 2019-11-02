@@ -8,6 +8,7 @@ func MainVariables() {
 	PrintVars()
 	VariableFormat()
 	Constants()
+	AdjustConstant()
 	fmt.Println("End MainVariables <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
 	fmt.Println()
 }

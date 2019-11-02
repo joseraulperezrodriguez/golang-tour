@@ -1,11 +1,11 @@
 package main
 
 import (
-	"functions"
 	"tour/src/arrays"
 	"tour/src/errors"
 	"tour/src/flowcontrol"
 	"tour/src/functional"
+	"tour/src/functions"
 	"tour/src/goroutines"
 	"tour/src/interfaces"
 	"tour/src/io"
@@ -15,7 +15,7 @@ import (
 	"tour/src/ranges"
 	"tour/src/structs"
 	"tour/src/types"
-	"variables"
+	"tour/src/variables"
 )
 
 func main() {

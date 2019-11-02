@@ -10,20 +10,21 @@ func ArrayBasic() {
 	fmt.Println(a)
 
 	b := [3]int{0, 1, 2}
-	fmt.Println(b)
+	fmt.Printf("%v %T\n", b, b)
 
 	var c []float64 = []float64{0.1, 0.1, 2.1}
-	fmt.Println(c)
+	fmt.Printf("%v %T\n", c, c)
 
 	d := append(c, 3.14)
 	fmt.Println(d, len(d))
+	fmt.Printf("%T\n", d)
 
 }
 
 //SlicesBasic examples
 func SlicesBasic() {
-	var array []int = []int{2, 3, 5, 7, 11}
-	var slice []int = array[0:len(array)]
+	var arrayDefault []int = []int{2, 3, 5, 7, 11}
+	var slice []int = arrayDefault[0:len(arrayDefault)]
 	fmt.Println(slice)
 
 	names := [4]string{
