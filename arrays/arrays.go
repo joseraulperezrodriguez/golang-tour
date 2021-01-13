@@ -14,9 +14,9 @@ func ArrayBasic() {
 
 	var c []float64 = []float64{0.1, 0.1, 2.1}
 	fmt.Printf("%v %T\n", c, c)
-
 	d := append(c, 3.14)
 	fmt.Println(d, len(d))
+	fmt.Printf("d length: %v, c length %v\n", len(d), len(c))
 	fmt.Printf("%T\n", d)
 
 }

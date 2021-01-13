@@ -6,7 +6,7 @@ import (
 
 var i, j int
 
-var ii, bb = 1, "bb"
+var ii, bb = 2, "bb"
 
 //PrintVars print default variables for int
 func PrintVars() {

@@ -57,7 +57,6 @@ func fibonacci1(n int, c chan int) {
 	x, y := 0, 1
 	for i := 0; i < n; i++ {
 		c <- x
-		fmt.Println("F -> ")
 		x, y = y, x+y
 	}
 	close(c)
@@ -82,8 +81,8 @@ func Channel3() {
 	go fibonacci1(cap(c), c)
 
 	for i := 0; i < 10; i++ {
-		i, closed := <-c
-		fmt.Println("R ->", len(c), i, closed)
+		j, closed := <-c
+		fmt.Println("R ->", len(c), j, closed)
 	}
 
 }
