@@ -39,3 +39,12 @@ func Map3() {
 	map1["k"] = 1
 	delete(map1, "k")
 }
+
+func Map4() {
+	var map1 = make(map[string]int)
+	map1["k1"] = 1
+	map1["k2"] = 2
+	for k, v := range map1 {
+		fmt.Printf("%s: %d\n", k, v)
+	}
+}

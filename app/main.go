@@ -1,6 +1,6 @@
 package main
 
-import "golang-tour/concurrency"
+import "golang-tour/maps"
 
 func main() {
 	//functions.MainFunctions()
@@ -11,12 +11,12 @@ func main() {
 	//structs.MainStructs()
 	//arrays.MainArrays()
 	//ranges.MainRanges()
-	//maps.MainMaps()
+	maps.MainMaps()
 	//functional.MainFunctional()
 	//methods.MainMethods()
 	//interfaces.MainInterfaces()
 	//errors.MainErrors()
 	//io.MainIO()
 	//goroutines.MainGoRoutines()
-	concurrency.MainConcurrency()
+	//concurrency.MainConcurrency()
 }
